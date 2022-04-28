@@ -42,7 +42,7 @@ function setup() {
     monthMenu.option("February or March?")
     submitButton = createButton("Submit")
     monthMenu.option("February");
-    monthMenu.option("Marth");
+    monthMenu.option("March");
     //fill(244,241,214);
     //textSize(10);
     dateMenu_march = createSelect();
@@ -54,7 +54,7 @@ function setup() {
 
 }
 function changeCalendar(){
-  if(monthMenu.value()=="Marth"){
+  if(monthMenu.value()=="March"){
   background(255, 160, 113);
   textSize(50);
   textAlign(CENTER);
