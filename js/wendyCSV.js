@@ -12,7 +12,7 @@ function preload() {
 
   //my table is comma separated value "csv"
   //and has a header specifying the columns labels
-  table = loadTable('js/wendyData.csv', 'csv', 'header');
+  table = loadTable('js/WendyData.csv', 'csv', 'header');
   happy = loadImage("images/happy.png");
   sad = loadImage("images/sad.png")
   trophy =  loadImage("images/trophy.png")
